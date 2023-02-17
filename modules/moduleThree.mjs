@@ -5,3 +5,4 @@ import {
 
 const printName = myName()
 printName
+

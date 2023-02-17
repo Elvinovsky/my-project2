@@ -1,12 +1,11 @@
+import sumOrName from './moduleDefault.mjs'; // <-- impot по умолчанию
 import {
-    sum as sumNumbers, // 'as' ключевое слово! позволяет переименовывать переменную из другого модуля.
+    sum as sumNumbers, // 'as' <- ключевое слово! позволяет переименовывать переменную из другого модуля.
     myName
 }   from './moduleOne.mjs'
 
-
-const res1 = sumNumbers (10,2)
-console.log(res1)
+const res1 = sumNumbers (48,2)
 
 const printName = myName()
 
-printName
+sumOrName (res1, printName)

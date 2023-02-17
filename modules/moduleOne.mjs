@@ -1,8 +1,9 @@
-const sum = (a,b) => a + b 
+const sum = (a,b) => a + b // неявный возврат результата 
 
 const myName = () => {
     console.log('Elvin')
 }
+
 
 export {
     sum, 
